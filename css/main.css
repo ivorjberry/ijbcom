@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5 {
+  font-family: "Montserrat", Geneva, sans-serif;
+}
+
+.site-title {
+  font-size: 46px;
+  font-weight: 600;
+  color: black;
+  float: left;
+}
+
+body {
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    background-color:000000;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 5px;
+    font-size: 7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 40px
+    margin-bottom: 32px;
+    margin-top: 44px;
+}
+
+h2 {
+    font: normal 14px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 2.3rem;
+}
+
+h1,h2   {
+  text-align:center;
+  line-height: 1;
+  margin: 0;
+}

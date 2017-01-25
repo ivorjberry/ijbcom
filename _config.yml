@@ -1,0 +1,21 @@
+# Site settings
+url: "http://www.ivorjberry.com"
+exclude: []
+
+
+# Build settings
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+permalink: pretty
+highlighter: rouge
+safe: false
+lsi: false
+
+defaults:
+  - # Site global default(s)
+    scope:
+      path: "" # Files under site root
+      type: "pages" # Only files of type page
+    values:
+      search_product: "eADQiIvor BerryXVcnh"
+      layout: "default"
