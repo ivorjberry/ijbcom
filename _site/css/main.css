@@ -1,12 +1,45 @@
-h1,h2,h3,h4,h5 {
-  font-family: "Montserrat", Geneva, sans-serif;
-}
-
 .site-title {
   font-size: 46px;
   font-weight: 600;
   color: black;
-  float: left;
+  float: right;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.site-description {
+  vertical-align: baseline;
+  float: right;
+  clear: right;
+  padding-bottom: 6px;
+}
+
+.navbar {
+  position: fixed;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1);
+  background-color: #FFF;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navbar-compact {
+  bottom: 0;
+  border-top: 2px solid rgba(0,0,0,0.1);
+  position: inherit;
+  background-color: inherit;
+  text-align: center;
+}
+
+.image-spacer-top{
+  padding-top: 90px;
+}
+
+.header-links {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -14,7 +47,6 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 400;
-    background-color:000000;
 }
 
 h1 {
@@ -38,4 +70,50 @@ h1,h2   {
   text-align:center;
   line-height: 1;
   margin: 0;
+}
+
+#instagram a:hover{
+  opacity: .8;
+}
+
+#instagram a{
+  padding:8px;
+}
+
+#instagram {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+
+  @media screen and (max-width: 600px) {
+		margin-top: -6px;
+		margin-left: -5.5vw;
+		margin-right: -5.5vw;
+	}
+
+  .a:hover{
+    opacity:.8;
+  }
+
+  .a {
+      padding: 10px;
+      flex-grow: 1;
+  		flex-basis: calc(100%/3);
+  		line-height: 0;
+  		transition: opacity 200ms ease-in-out;
+  		border: .5vw solid transparent;
+
+  		&:hover {
+  			opacity: .8;
+  		}
+  }
+
+  img {
+    width: 100%;
+
+  }
 }
