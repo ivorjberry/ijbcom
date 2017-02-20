@@ -1,2 +1,0 @@
-# ijbcom
-Website playground
